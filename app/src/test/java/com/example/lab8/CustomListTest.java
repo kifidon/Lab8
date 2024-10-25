@@ -64,7 +64,7 @@ public class CustomListTest {
         // Check if hasCity returns true after adding the city
         Assertions.assertTrue(list.hasCity(city));
 
-        list.deleteCity();
+        list.deleteCity(city);
 
         Assertions.assertFalse(list.hasCity(city));
     }
