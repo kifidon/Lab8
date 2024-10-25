@@ -70,6 +70,6 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int counCities() {
-
+        return getCount();
     }
 }
